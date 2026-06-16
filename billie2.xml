@@ -7,5 +7,5 @@
   <project name="LineageOS/android_kernel_oneplus_sm4250" path="kernel/oneplus/sm4250" remote="github" revision="lineage-22.1" />
   
   <!-- Vendor Blobs -->
-  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-22.1" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_billie2" path="vendor/oneplus/billie2" remote="github" revision="lineage-22.1" />
 </manifest>
