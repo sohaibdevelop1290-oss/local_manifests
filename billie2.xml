@@ -1,58 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="LineageOS/android_device_oneplus_billie2" />
-  <remove-project name="LineageOS/android_kernel_oneplus_sm4250" />
-  <remove-project name="TheMuppets/proprietary_vendor_oneplus_billie2" />
-  <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
-  <remove-project name="LineageOS/android_hardware_oneplus" />
-  <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
-  <remove-project name="LineageOS/android_hardware_qcom_bootctrl" />
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_hardware_interfaces" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" />
-  <remove-project name="LineageOS/android_hardware_qcom_wlan" />
-  <remove-project name="platform/hardware/interfaces" />
-  <remove-project name="LineageOS/android_hardware_google_pixel" />
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_usb" />
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_display" />
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys" />
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
-  <remove-project name="platform/build" />
-  <remove-project name="LineageOS/android_vendor_lineage" />
-  <remove-project name="LineageOS/android_frameworks_native" />
-  <remove-project name="LineageOS/android_frameworks_av" />
+        <remote name="rem" fetch="https://github.com" />
 
-  <project path="device/oneplus/billie2" name="sohaibdevelop1290-oss/android_device_oneplus_billie2" remote="github" revision="lineage-22.1" />
-  <project path="kernel/oneplus/sm4250" name="sohaibdevelop1290-oss/android_kernel_oneplus_sm4250" remote="github" revision="lineage-22.1" />
-  <project path="vendor/oneplus/billie2" name="sohaibdevelop1290-oss/proprietary_vendor_oneplus_billie2" remote="github" revision="lineage-22.1" />
+        <remove-project name="LineageOS/android_device_oneplus_billie2" />
+        <remove-project name="LineageOS/android_kernel_oneplus_sm4250" />
+        <remove-project name="TheMuppets/proprietary_vendor_oneplus_billie2" />
+        <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
+        <remove-project name="LineageOS/android_hardware_oneplus" />
+        <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
+        <remove-project name="LineageOS/android_hardware_qcom_bootctrl" />
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <remove-project name="LineageOS/android_hardware_interfaces" />
+        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <remove-project name="LineageOS/android_hardware_qcom_wlan" />
+        <remove-project name="LineageOS/android_hardware_google_pixel" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_usb" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_display" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
+        <remove-project name="LineageOS/android_vendor_lineage" />
+        <remove-project name="LineageOS/android_frameworks_native" />
+        <remove-project name="LineageOS/android_frameworks_av" />
 
-  <project path="device/qcom/sepolicy_vndr" name="sohaibdevelop1290-oss/android_device_qcom_sepolicy_vndr" remote="github" revision="lineage-22.1-legacy-um" />
-  <project path="hardware/oneplus" name="LineageOS/android_hardware_oneplus" remote="github" revision="lineage-22.1" />
-  <project path="hardware/qcom-caf/common" name="sohaibdevelop1290-oss/android_hardware_qcom-caf_common" remote="github" revision="lineage-22.1" />
-  <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" remote="github" revision="lineage-22.1-caf" />
-  <project path="hardware/qcom-caf/sm8250/display" name="sohaibdevelop1290-oss/android_hardware_qcom_display" remote="github" revision="lineage-22.1-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="sohaibdevelop1290-oss/android_hardware_qcom_audio" remote="github" revision="lineage-22.1-caf-sm8250" />
-  <project path="hardware/interfaces" name="sohaibdevelop1290-oss/android_hardware_interfaces" remote="github" revision="lineage-22.1" />
-  <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-22.1-caf-sm8250" />
-  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="lineage-22.1-caf" />
+        <project path="device/oneplus/billie2" name="sohaibdevelop1290-oss/android_device_oneplus_billie2" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="kernel/oneplus/sm4250" name="sohaibdevelop1290-oss/android_kernel_oneplus_sm4250" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="vendor/oneplus/billie2" name="sohaibdevelop1290-oss/proprietary_vendor_oneplus_billie2" remote="rem" revision="lineage-22.1" clone-depth="1" />
 
-  <project path="hardware/google/interfaces" name="platform/hardware/interfaces" remote="aosp" revision="android15-release" />
-  <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" remote="github" revision="lineage-22.1" />
+        <project path="device/qcom/sepolicy_vndr" name="sohaibdevelop1290-oss/android_device_qcom_sepolicy_vndr" remote="rem" revision="lineage-22.1-legacy-um" clone-depth="1" />
+        <project path="hardware/oneplus" name="LineageOS/android_hardware_oneplus" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="hardware/qcom-caf/common" name="sohaibdevelop1290-oss/android_hardware_qcom-caf_common" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" remote="rem" revision="lineage-22.1-caf" clone-depth="1" />
+        <project path="hardware/qcom-caf/sm8250/display" name="sohaibdevelop1290-oss/android_hardware_qcom_display" remote="rem" revision="lineage-22.1-caf-sm8250" clone-depth="1" />
+        <project path="hardware/qcom-caf/sm8250/audio" name="sohaibdevelop1290-oss/android_hardware_qcom_audio" remote="rem" revision="lineage-22.1-caf-sm8250" clone-depth="1" />
+        <project path="hardware/interfaces" name="sohaibdevelop1290-oss/android_hardware_interfaces" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" remote="rem" revision="lineage-22.1-caf-sm8250" clone-depth="1" />
+        <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="rem" revision="lineage-22.1-caf" clone-depth="1" />
 
-  <project path="vendor/qcom/opensource/usb" name="sohaibdevelop1290-oss/android_vendor_qcom_opensource_usb" remote="github" revision="lineage-22.1" />
-  <project path="vendor/qcom/opensource/vibrator" name="sohaibdevelop1290-oss/android_vendor_qcom_opensource_vibrator" remote="github" revision="lineage-22.1" />
-  <project path="vendor/qcom/opensource/dataservices" name="sohaibdevelop1290-oss/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-22.1" />
-  <project path="vendor/qcom/opensource/display" name="sohaibdevelop1290-oss/android_vendor_qcom_opensource_display" remote="github" revision="lineage-22.1" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="sohaibdevelop1290-oss/android_vendor_qcom_opensource_display-commonsys" remote="github" revision="lineage-22.1" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="sohaibdevelop1290-oss/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" revision="lineage-22.1" />
+        <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" remote="rem" revision="lineage-22.1" clone-depth="1" />
 
-  <project path="build/make" name="platform/build" remote="aosp" revision="android15-release" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" remote="github" revision="lineage-22.1" />
-  <project path="frameworks/native" name="sohaibdevelop1290-oss/android_frameworks_native" remote="github" revision="lineage-22.1" />
-  <project path="frameworks/av" name="sohaibdevelop1290-oss/android_frameworks_av" remote="github" revision="lineage-22.1" />
+        <project path="vendor/qcom/opensource/usb" name="sohaibdevelop1290-oss/android_vendor_qcom_opensource_usb" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="vendor/qcom/opensource/vibrator" name="sohaibdevelop1290-oss/android_vendor_qcom_opensource_vibrator" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="vendor/qcom/opensource/dataservices" name="sohaibdevelop1290-oss/android_vendor_qcom_opensource_dataservices" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="vendor/qcom/opensource/display" name="sohaibdevelop1290-oss/android_vendor_qcom_opensource_display" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="vendor/qcom/opensource/commonsys/display" name="sohaibdevelop1290-oss/android_vendor_qcom_opensource_display-commonsys" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="vendor/qcom/opensource/commonsys-intf/display" name="sohaibdevelop1290-oss/android_vendor_qcom_opensource_display-commonsys-intf" remote="rem" revision="lineage-22.1" clone-depth="1" />
+
+        <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="frameworks/native" name="sohaibdevelop1290-oss/android_frameworks_native" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="frameworks/av" name="sohaibdevelop1290-oss/android_frameworks_av" remote="rem" revision="lineage-22.1" clone-depth="1" />
 
 </manifest>
