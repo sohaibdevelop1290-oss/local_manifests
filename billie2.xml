@@ -26,11 +26,11 @@
         <remove-project name="LineageOS/android_frameworks_native" />
         <remove-project name="LineageOS/android_frameworks_av" />
 
-        <project path="device/oneplus/billie2" name="sohaibdevelop1290-oss/android_device_oneplus_billie2" remote="rem" revision="lineage-22.1" clone-depth="1" />
-        <project path="kernel/oneplus/sm4250" name="sohaibdevelop1290-oss/android_kernel_oneplus_sm4250" remote="rem" revision="lineage-22.1" clone-depth="1" />
-        <project path="vendor/oneplus/billie2" name="sohaibdevelop1290-oss/proprietary_vendor_oneplus_billie2" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="device/oneplus/billie2" name="LineageOS/android_device_oneplus_billie2" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="kernel/oneplus/sm4250" name="LineageOS/android_kernel_oneplus_sm4250" remote="rem" revision="lineage-22.1" clone-depth="1" />
+        <project path="vendor/oneplus/billie2" name="TheMuppets/proprietary_vendor_oneplus_billie2" remote="rem" revision="lineage-22.1" clone-depth="1" />
 
-        <project path="device/qcom/sepolicy_vndr" name="sohaibdevelop1290-oss/android_device_qcom_sepolicy_vndr" remote="rem" revision="lineage-22.1-legacy-um" clone-depth="1" />
+        <project path="device/qcom/sepolicy_vndr" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="rem" revision="lineage-22.1-legacy-um" clone-depth="1" />
         <project path="hardware/oneplus" name="LineageOS/android_hardware_oneplus" remote="rem" revision="lineage-22.1" clone-depth="1" />
         <project path="hardware/qcom-caf/common" name="sohaibdevelop1290-oss/android_hardware_qcom-caf_common" remote="rem" revision="lineage-22.1" clone-depth="1" />
         <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" remote="rem" revision="lineage-22.1-caf" clone-depth="1" />
