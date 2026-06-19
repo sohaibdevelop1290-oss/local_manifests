@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+        <remote name="github" fetch="https://github.com/" />
+        <remote name="my-github" fetch="https://github.com/" />
+
         <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
         <remove-project name="LineageOS/android_hardware_oneplus" />
         <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
@@ -24,13 +27,13 @@
         <project path="device/oneplus/billie2" name="LineageOS/android_device_oneplus_billie2" remote="github" revision="lineage-22.1" clone-depth="1" />
         <project path="kernel/oneplus/sm4250" name="LineageOS/android_kernel_oneplus_sm4250" remote="github" revision="lineage-22.1" clone-depth="1" />
         
-        <project path="vendor/oneplus/billie2" name="sohaibdevelop1290-oss/proprietary_vendor_oneplus_billie2" remote="github" revision="lineage-22.1" clone-depth="1" />
+        <project path="vendor/oneplus/billie2" name="sohaibdevelop1290-oss/proprietary_vendor_oneplus_billie2" remote="my-github" revision="lineage-22.1" clone-depth="1" />
 
         <project path="device/qcom/sepolicy_vndr" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="github" revision="lineage-22.1-legacy-um" clone-depth="1" />
         <project path="hardware/oneplus" name="LineageOS/android_hardware_oneplus" remote="github" revision="lineage-22.1" clone-depth="1" />
         <project path="hardware/qcom-caf/common" name="sohaibdevelop1290-oss/android_hardware_qcom-caf_common" remote="github" revision="lineage-22.1" clone-depth="1" />
         <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" remote="github" revision="lineage-22.1-caf" clone-depth="1" />
-        <project path="hardware/qcom-caf/sm8250/display" name="sohaibdevelop1290-oss/android_hardware_qcom_display" remote="github" revision="lineage-22.1-caf-sm8250" clone-depth="1" />
+        <project path="hardware/qcom-caf/sm8250/display" name="sohaibdevelop1290-oss/android_hardware_qcom-display" remote="github" revision="lineage-22.1-caf-sm8250" clone-depth="1" />
         <project path="hardware/qcom-caf/sm8250/audio" name="sohaibdevelop1290-oss/android_hardware_qcom_audio" remote="github" revision="lineage-22.1-caf-sm8250" clone-depth="1" />
         <project path="hardware/interfaces" name="sohaibdevelop1290-oss/android_hardware_interfaces" remote="github" revision="lineage-22.1" clone-depth="1" />
         <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-22.1-caf-sm8250" clone-depth="1" />
@@ -49,3 +52,4 @@
         <project path="frameworks/av" name="sohaibdevelop1290-oss/android_frameworks_av" remote="github" revision="lineage-22.1" clone-depth="1" />
 
 </manifest>
+                
